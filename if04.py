@@ -6,5 +6,21 @@ def main(a,b):
         b: Second number.
     Returns:
         int: return answer.
-    """
-    return
+     Agar raqamlar teng bo'lsa, nolni qaytaring, agar ular teng bo'lmasa, kattasini qaytaring.
+     Args:
+         a: Birinchi raqam.
+         b: ikkinchi raqam.
+     Qaytaradi:
+         int: javobni qaytarish.
+     """
+    if a == b:
+        return 0
+    elif a > b:
+        return a
+    else:
+        return b
+a = 5
+b = 3
+
+javob = main(a, b)
+print(javob)  # 5    

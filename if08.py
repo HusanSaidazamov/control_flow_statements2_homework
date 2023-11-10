@@ -13,5 +13,37 @@ def main(number):
         number: Number of the day.
     Returns:
         str: return answer.
-    """
-    return
+     Haftaning kunlarini qaytaring, haftaning kunlarini 1 dan 7 gacha bo'lgan raqamlarga ko'ra qaytaring.
+     Elif iboralaridan foydalaning.
+     1: "Dushanba"
+     2: "seshanba"
+     3: "Chorshanba"
+     4: "Payshanba"
+     5: "Juma"
+     6: "Shanba"
+     7: "Yakshanba"
+     Args:
+        raqam: kun soni.
+     Qaytaradi:
+        str: javobni qaytarish.
+     """
+    if number == 1:
+        return "Monday"
+    elif number == 2:
+        return "Tuesday"
+    elif number == 3:
+        return "Wednesday"
+    elif number == 4:
+        return "Thursday"
+    elif number == 5:
+        return "Friday"
+    elif number == 6:
+        return "Saturday"
+    elif number == 7:
+        return "Sunday"
+    else:
+        return "Invalid number"
+
+number= 6
+DAY= main(number)
+print(DAY)

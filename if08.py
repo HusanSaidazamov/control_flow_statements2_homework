@@ -13,20 +13,8 @@ def main(number):
         number: Number of the day.
     Returns:
         str: return answer.
-     Haftaning kunlarini qaytaring, haftaning kunlarini 1 dan 7 gacha bo'lgan raqamlarga ko'ra qaytaring.
-     Elif iboralaridan foydalaning.
-     1: "Dushanba"
-     2: "seshanba"
-     3: "Chorshanba"
-     4: "Payshanba"
-     5: "Juma"
-     6: "Shanba"
-     7: "Yakshanba"
-     Args:
-        raqam: kun soni.
-     Qaytaradi:
-        str: javobni qaytarish.
-     """
+    """
+
     if number == 1:
         return "Monday"
     elif number == 2:

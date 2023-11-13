@@ -1,4 +1,5 @@
 def main(a,b,c):
+    #if03 xato
     """
     Determine the number between large and small.
     Args:
@@ -7,13 +8,7 @@ def main(a,b,c):
         c: Third number.
     Returns:
         int: return answer.
-     Katta va kichik o'rtasidagi sonni aniqlang.
-     Args:
-         a: Birinchi raqam.
-         b: ikkinchi raqam.
-         c: Uchinchi raqam.
-     Qaytaradi:
-         int: javobni qaytarish.
+
      """
 
     if a > b and a > c:
@@ -23,5 +18,5 @@ def main(a,b,c):
     elif c > a and c > b:
         return c
     else:
-        return None  # yoki boshqa bir qiymat, misol uchun -1
+        return None 
 print(main(1,2,4))    

@@ -5,11 +5,6 @@ def main(n):
         n: Five-digit number.
     Returns:
         int: return answer.
-     Besh xonali sonning eng katta raqamini toping.
-     Args:
-         n: besh xonali raqam.
-     Qaytaradi:
-         int: javobni qaytarish.
      """
 
     a = n // 10000

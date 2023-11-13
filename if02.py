@@ -7,13 +7,6 @@ def main(a,b,c):
         c: Third number.
     Returns:
         int: return answer.
-     Raqamlarning eng kichigini toping.
-     Args:
-         a: Birinchi raqam.
-         b: ikkinchi raqam.
-         c: Uchinchi raqam.
-     Qaytaradi:
-         int: javobni qaytarish.
      """
     if a <= b and a <= c:
         return a

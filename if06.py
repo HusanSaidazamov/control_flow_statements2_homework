@@ -1,16 +1,12 @@
 def main(n):
+    #if06 xato 
     """
     Find the index of the largest digit of the five-digit number.
     Args:
         n: Five-digit number.
     Returns:
         int: return answer.
-     Besh xonali sonning eng katta raqamining indeksini toping.
-     Args:
-         n: besh xonali raqam.
-     Qaytaradi:
-         int: javobni qaytarish.
-     """
+    """
     # Besh xonali raqamning eng katta raqamining indeksini topish
     # Besh xonali raqamning eng katta raqamining indeksini topish
     a = n // 10000

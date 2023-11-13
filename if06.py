@@ -16,16 +16,16 @@ def main(n):
     e = n % 10
 
     if a >= b and a >= c and a >= d and a >= e:
-        return 0
+        return 5
     elif b >= c and b >= d and b >= e:
-        return 1
-    elif c >= d and c >= e:
-        return 2
-    elif d >= e:
-        return 3
-    else:
         return 4
+    elif c >= d and c >= e:
+        return 3
+    elif d >= e:
+        return 2
+    else:
+        return 1
 
-n=54694
+n=76514
 Z= main(n)
 print(n,Z)
